@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/vars.css">
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">Curriculum vitae</a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#name">Name</a>
+          </li>
+          <li>
+            <a href="#sym">Summary</a>
+          </li>
+          <li>
+            <a href="#sk">Skills</a>
+          </li>
+          <li>
+            <a href="#b_code">Code</a>
+          </li>
+          <li>
+            <a href="#best">Best practices</a>
+          </li>
+          <li>
+            <a href="#ed_and_eng">Education</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="name_and_photo" id="name">
+    <div class="container">
+      <article class="name_contacts">
+        <h1>Zykau Siarhei</h1>
+        <h3>My contacts:</h3>
+        <ul>
+          <li class="mail">
+            <i class="fa fa-envelope " aria-hidden="true "></i>
+            <p>zykau_s@mail.ru</p>
+          </li>
+          <li class="phone">
+            <i class="fa fa-mobile " aria-hidden="true "></i>
+            <p>+375(25)635-82-93</p>
+          </li>
+          <li class="skype">
+            <i class="fa fa-skype " aria-hidden="true "></i>
+            <a href="https://join.skype.com/invite/ea9gKAIHG7UM" target="_blank">Siarhei Zykau</a>
+          </li>
+          <li class="vk">
+            <i class="fa fa-vk " aria-hidden="true "></i>
+            <a href="https://vk.com/id223444642" target="_blank">Siarhei Zykau</a>
+          </li>
+          <li class="github">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/Dekim12" target="_blank">Sergey Zykov</a>
+          </li>
+        </ul>
+      </article>
+      <div class="my_photo">
+        <div class='tape'></div>
+        <img src="./images/myPhoto.jpg " alt="Siarhei Zykau " width="360 " height="450 ">
+      </div>
+    </div>
+  </section>
+  <section class="summary" id="sym">
+    <div class="container">
+      <h2>Summary</h2>
+      <p>
+        My goal is to have programming skills and make world better. I want to be a Front End developer after that I want to learn
+        a Back End development. I like new technologies in IT. Also same I'm interested other languages such as the Ruby
+        and the Haskell. For the time being I don't have enough skills. But I am ready to work hard and spend all my time
+        for it. I hope that The Rolling Scopes School help me with that.
+      </p>
+    </div>
+  </section>
+  <section class="skills" id="sk">
+    <div class="container">
+      <h2 class="my_skills">My skills</h2>
+      <div class="arrow_wr first_arrow">
+        <div class="arrow"></div>
+      </div>
+      <div class="arrow_wr second_arrow">
+        <div class="arrow"></div>
+      </div>
+      <div class="arrow_wr third_arrow">
+        <div class="arrow"></div>
+      </div>
+      <div class="arrow_wr fourth_arrow">
+        <div class="arrow"></div>
+      </div>
+      <div class="arrow_wr fifth_arrow">
+        <div class="arrow"></div>
+      </div>
+      <div class="skil_line_one">
+        <div class="oval">
+          <span>HTML</span>
+        </div>
+        <div class="oval">
+          <span>JavaScript</span>
+        </div>
+      </div>
+      <div class="skills_wrapper">
+        <h2>SKILLS</h2>
+      </div>
+      <div class="skil_line_two">
+        <div class="oval">
+          <span>CSS</span>
+        </div>
+        <div class="oval oval_c">
+          <span>C</span>
+        </div>
+        <div class="oval">
+          <span>PhotoShop</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mu_code" id="b_code">
+    <div class="container">
+      <h2>The example of my code</h2>
+      <p>A JavaScript function which takes three different arrays and returns an array. This array includes non-repeatable
+        values without zeros. And all values have been sorted.
+      </p>
+      <div class="js_code">
+        <code>
+          <pre>
+          function makeSet(array1, array2, array3) {
+            return Array.from(new Set([...array1, ...array2, ...array3]))
+              .filter(num => num !== 0)
+              .sort((a, b) => a - b);
+          }
+
+          const arr1 = [8, 3, 2, 8, 0, 4];
+          const arr2 = [1, 4, 0, 2, 5];
+          const arr3 = [9, 0, 5, 0];
+
+          makeSet(arr1, arr2, arr3); //result - [1, 2, 3, 4, 5, 8, 9]
+          </pre>
+        </code>
+      </div>
+      <p>I used this function, when I was solving <a href="https://github.com/Dekim12/additional_7" target="_blank">Sudoku
+          task.
+        </a></p>
+    </div>
+  </section>
+  <section class="best_practices" id="best">
+    <div class="container">
+      <h2>Best practices</h2>
+      <ul>
+        <li>
+          TrueColorLife:
+          <a href="https://github.com/Dekim12/site-TrueColorLife" target="_blank">https://github.com/Dekim12/site-TrueColorLife</a>
+        </li>
+        <li>
+          Landing page:
+          <a href="https://github.com/Dekim12/ItachiAll">https://github.com/Dekim12/ItachiAll</a>
+        </li>
+        <li>
+          ToDoList from react:
+          <a href="https://github.com/Dekim12/todo_list-from-react">https://github.com/Dekim12/todo_list-from-react</a>
+        </li>
+        <li>
+          Site Hackatrain:
+          <a href="https://github.com/Dekim12/Hackatrain2018">https://github.com/Dekim12/Hackatrain2018</a>
+        </li>
+        <li>HTML&CSS test: 77 points</li>
+      </ul>
+    </div>
+  </section>
+  <section class="education_english" id="ed_and_eng">
+    <div class="container">
+      <article>
+        <h2>My education</h2>
+        <ul>
+          <li>
+            Secondary education:<span>MINSK ARCHITECTURAL AND CONSTRUCTION COLLEGE</span>
+          </li>
+          <li>Higher education:<span>BREST STATE TECHNICAL UNIVERSITY</span><span class="small">(not finished yet)</span>
+          </li>
+          <li>
+            Codecademy:<span>HTML & CSS</span>
+          </li>
+        </ul>
+      </article>
+      <article class="english">
+        <h2>English</h2>
+        <p>
+          My English level:<span>A2+</span>
+        </p>
+        <p>I studied English in school and college. Also I practiced with mentor for three months. And now I study English
+          myself and improve my skills every day.</p>
+      </article>
+    </div>
+  </section>
+  <footer class="footer">
+    <nav class="container">
+      <ul>
+        <li>
+          <a href="#name">Name</a>
+        </li>
+        <li>
+          <a href="#sym">Summary</a>
+        </li>
+        <li>
+          <a href="#sk">Skills</a>
+        </li>
+        <li>
+          <a href="#b_code">Code</a>
+        </li>
+        <li>
+          <a href="#best">Best practices</a>
+        </li>
+        <li>
+          <a href="#ed_and_eng">Education</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="https://use.fontawesome.com/d1335f9e7b.js "></script>
+  <script src="./index.js "></script>
+</body>
+
+</html>

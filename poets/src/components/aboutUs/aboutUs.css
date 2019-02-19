@@ -1,0 +1,33 @@
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+}
+
+.about-us .center-content {
+  margin: auto;
+}
+
+.about-us h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+.our-developers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=aboutUs.css.map */

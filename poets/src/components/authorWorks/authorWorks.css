@@ -1,0 +1,39 @@
+.author-works {
+  width: 100%;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.author-works h2{
+  color: #858585;
+}
+
+.works-list {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.author-works li {
+  background-color: rgb(226, 226, 226);
+  margin: 10px;
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author-works i {
+  color: rgb(134, 60, 60);
+}
+
+.author-works span {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}

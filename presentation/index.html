@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Databases</title>
+
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
+    <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? 'css/print/pdf.css'
+        : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>DATABASES</h1>
+          <p>
+            Created by <a href="https://github.com/Dekim12">Zykau Siarhei</a>
+          </p>
+        </section>
+        <section>
+          <h3>Content</h3>
+          <ul>
+            <li>What is a database?</li>
+            <li>Database and Database management system (DBMS).</li>
+            <li>DBMS classification according to data models.</li>
+            <li>DBMS Architecture.</li>
+            <li>Most popular DBMS.</li>
+          </ul>
+        </section>
+        <section>
+          <section><h2>What is a database?</h2></section>
+          <section class="what-is">
+            <img src="./images/text-file.png" alt="" />
+            <img src="./images/fileFolder.jpg" alt="" />
+          </section>
+          <section>
+            <h3>Main problems to store data:</h3>
+            <ul>
+              <li>Size</li>
+              <li>Updating our data</li>
+              <li>Accuracy</li>
+              <li>Security</li>
+              <li>Redundancy</li>
+              <li>Importance</li>
+            </ul>
+          </section>
+          <section class="data">
+            <img src="./images/database-wordcloud.jpg" alt="" />
+          </section>
+          <section class="everywhere">
+            <img src="./images/bazlater.jpeg" alt="" />
+          </section>
+        </section>
+        <section>
+          <section><h2>Database & DBMS</h2></section>
+          <section>
+            <h3>Database !== DBMS</h3>
+            <p>
+              The database is an organized data structure, it is the data
+              itself.
+            </p>
+            <p>
+              The DBMS essentially serves as an interface between the database
+              and users or application programs, ensuring that data is
+              consistently organized and remains easily accessible.
+            </p>
+          </section>
+          <section><img src="./images/DBMS.png" alt="" /></section>
+          <section>
+            <h3>The DBMS manages three things</h3>
+            <ul>
+              <li>The data</li>
+              <li>The database engine</li>
+              <li>The database schema</li>
+            </ul>
+            <img src="./images/database-menage.jpg" alt="" />
+          </section>
+        </section>
+        <section>
+          <section><h2>DBMS classification</h2></section>
+          <section>
+            <h3>There are four kinds of DBMS according to data models</h3>
+            <ul>
+              <li>Hierarchal DBMS</li>
+              <li>Network DBMS</li>
+              <li>Relational DBMS</li>
+              <li>Object Oriented DBMS</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Hierarchal DBMS</h3>
+            <p>
+              This database model organises data into a tree-like-structure,
+              with a single root, to which all the other data is linked.
+            </p>
+            <img src="./images/hierarchical-dbms-model.png" alt="" />
+          </section>
+          <section>
+            <h3>Advantages:</h3>
+            <ul class="Advantages">
+              <li>Hierarchical Model is simple to construct and operate.</li>
+              <li>
+                Corresponds to a number of natural hierarchically organized
+                domains.
+              </li>
+              <li>Language is simple.</li>
+            </ul>
+
+            <div class="buffer"></div>
+            <h3>Disadvantages:</h3>
+            <ul>
+              <li>Navigational and procedural nature of processing.</li>
+              <li>
+                Database is visualized as a linear arrangement of records.
+              </li>
+              <li>Little scope for 'query optimization'.</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Network DBMS</h3>
+            <p>
+              This is an extension of the Hierarchical model. In this model data
+              is organised more like a graph, and are allowed to have more than
+              one parent node.
+            </p>
+
+            <img src="./images/Network-Model.jpg" alt="" />
+          </section>
+          <section>
+            <h3>Advantages:</h3>
+            <ul class="Advantages">
+              <li>Conceptual simplicity.</li>
+              <li>Capability to handle <br />more relationship types.</li>
+              <li>Ease of data access.</li>
+            </ul>
+            <div class="buffer"></div>
+            <h3>Disadvantages:</h3>
+            <ul>
+              <li>Data integrity.</li>
+              <li>Data independence.</li>
+              <li>Database standards.</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Relational DBMS</h3>
+            <p>
+              In this model, data is organised in two-dimensional tables and the
+              relationship is maintained by storing a common field.
+            </p>
+            <img src="./images/relational-dbms-model.png" alt="" />
+          </section>
+          <section>
+            <h3>Advantages:</h3>
+            <ul class="Advantages">
+              <li>
+                Data base queries are based on a comparison of the table
+                contents.
+              </li>
+              <li>The tables are independent and not related by pointers.</li>
+              <li>The tables can be easily expanded.</li>
+              <li>It is easy to create user specific views.</li>
+            </ul>
+            <div class="buffer"></div>
+            <h3>Disadvantages:</h3>
+            <ul>
+              <li>Slower access rates.</li>
+              <li>
+                Access to spatial data by geometric attributes is not optional.
+              </li>
+            </ul>
+          </section>
+          <section class="Object-Oriented">
+            <h3>Object Oriented DBMS</h3>
+            <p>
+              An object-oriented database management system is a DBMS where data
+              is represented in the form of objects, as used in object-oriented
+              programming
+            </p>
+            <div class="wrapper"></div>
+          </section>
+          <section>
+            <h3>Advantages:</h3>
+            <ul class="Advantages">
+              <li>Allows the real world to be modeled more closely.</li>
+              <li>It new data types to be built from existing types.</li>
+              <li>Schema evolution more reasible.</li>
+            </ul>
+            <div class="buffer"></div>
+            <h3>Disadvantages:</h3>
+            <ul>
+              <li>There is a general lack of standards of OODBMS.</li>
+              <li>Query optimization requires.</li>
+            </ul>
+          </section>
+        </section>
+        <section class="architecture">
+          <section><h2>DBMS Architecture</h2></section>
+          <section>
+            <p>
+              The design of a DBMS depends on its architecture. The architecture
+              of a DBMS can be seen as either single tier or multi-tier.
+            </p>
+            <div class="buffer"></div>
+            <h3>The tiers are classified as follows:</h3>
+            <ul>
+              <li>1-tier architecture</li>
+              <li>2-tier architecture</li>
+              <li>3-tier architecture</li>
+            </ul>
+          </section>
+          <section>
+            <h3>1-tier DBMS architecture.</h3>
+            <p>
+              This is when the database is directly available to the user for
+              using it to store data. Generally such a setup is used for local
+              application development, where programmers communicate directly
+              with the database for quick response.
+            </p>
+            <img class="first" src="./images/1.png" alt="" />
+          </section>
+          <section>
+            <h3>2-tier DBMS architecture.</h3>
+            <p>
+              2-tier DBMS architecture includes an Application layer between the
+              user and the DBMS, which is responsible to communicate the user's
+              request to the database management system and then send the
+              response from the DBMS to the user.
+            </p>
+            <img class="first" src="./images/2.png" alt="" />
+          </section>
+          <section>
+            <h3>3-tier DBMS architecture.</h3>
+            <p>
+              A 3-tier architecture separates its tiers from each other based on
+              the complexity of the users and how they use the data present in
+              the database. It is the most widely used architecture to design a
+              DBMS.
+            </p>
+            <img class="second" src="./images/3.png" alt="" />
+          </section>
+          <section>
+            <h3>3-tier architecture includes:</h3>
+            <ul>
+              <li>
+                Database(Data) Tier − At this tier, the database resides along
+                with its query processing languages.
+              </li>
+              <li>
+                Application(Middle) Tier − At this tier reside the application
+                server and the programs that access the database. The
+                application layer sits in the middle and acts as a mediator
+                between the end-user and the database.
+              </li>
+              <li>
+                User(Presentation) Tier − Users operate on this tier and they
+                know nothing about any existence of the database beyond this
+                layer.
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section><h2>Most popular DBMS</h2></section>
+          <section class="popular">
+            <div><img src="./images/Oracle.png" alt="" /></div>
+            <div><img src="./images/mysql.jpg" alt="" /></div>
+            <div><img src="./images/microsoftsqlserver.jpg" alt="" /></div>
+            <div><img src="./images/postgre-SQL.png" alt="" /></div>
+            <div><img src="./images/Mongo-db.png" alt="" /></div>
+          </section>
+        </section>
+        <section> 
+          <h1>The End</h1>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      Reveal.initialize({
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          {
+            src: 'plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
+</html>

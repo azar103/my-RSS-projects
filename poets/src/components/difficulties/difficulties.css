@@ -1,0 +1,39 @@
+@media only screen and (max-width: 630px) {
+  .difficulties li {
+  list-style-type: disc;
+  font-size: 1.2em;
+  } 
+}
+
+@media only screen and (max-width: 410px) {
+  .difficulties h2 {
+    font-size: 1.6em;
+  }
+
+  .difficulties li {
+    list-style-type: disc;
+  }
+}
+
+.difficulties {
+  width: 80%;
+  min-height: 80vh;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+}
+
+.difficulties h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 5% 2% 3%;
+}
+
+.difficulties li {
+  list-style-type: disc;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+

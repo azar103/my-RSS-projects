@@ -1,0 +1,12 @@
+:root {
+  --container-width: 1024px;
+  --main-font: 1.56rem;
+  --main-text-color: rgb(77, 79, 83);
+  --h2-size: 2.5rem;
+  --h2-font: PoppinsBlack, 'Times New Roman', Times, serif;
+  --h3-size: 2.4rem;
+  --h-color: rgb(48,48,48);
+  --head-color: rgb(150, 151, 154);
+  --bgc-first: rgb(224, 225, 217);
+  --bgc-second: rgb(217, 210, 211);
+}

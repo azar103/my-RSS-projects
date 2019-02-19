@@ -1,0 +1,32 @@
+{
+  "en": {
+    "difficulty": [
+      "React was a new framework for almost all team members",
+      "In some cases it was quite difficult to integrate multiple different component",
+      "Responsivness",
+      "Difficulty with a React especially with lifecycle and state",
+      "It was really difficult to split work between team members without intercection / merge conflicts in some files",
+      "It is not easy to create basic application architecture at the begining of development"
+    ]
+  },
+  "ru": {
+    "difficulty": [
+      "React практически для всех членов команды был в новинку",
+      "В некоторых случаях было доволно сложно съинтегрировать несколько разных компонент",
+      "Responsivness думаю на русский не переводится :)",
+      "Сложности с реактом React особенно с lifecycle и state",
+      "Было сложно разбить работу между членами команды так чтобы она не пересекалась и не приводила к merge conflicts",
+      "Сложно продумать архитектуру проекта в начале разработки"
+    ]
+  },
+  "by": {
+    "difficulty": [
+      "React амаль для усiх з'яуляецца новай тэхналогiяй",
+      "У некаторых выпадках было доволно складана с'ынтегрыровать некалькі розных кампанент",
+      "Responsivness не ведаю як па беларуску :)",
+      "Складанасці з React асабліва з lifecycle i state",
+      "Было складана разбіць працу паміж членамі каманды так каб яна не перасякалася і не прыводзіла да merge conflicts",
+      "Складана прадумаць архітэктуру праекта ў пачатку распрацоўкі"
+    ]
+  }
+}

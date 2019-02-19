@@ -1,0 +1,10 @@
+.search-results{
+  height:60vh;
+  margin-top: 2%;
+  width: 80%;
+}
+
+.search-results__link {
+  display: block;
+  font-size: 1.2em;
+}

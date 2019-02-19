@@ -1,0 +1,64 @@
+.col,
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.developer {
+  margin: 10px 50px;
+  padding: 15px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.developer a {
+  color: #222;
+  text-decoration: none;
+}
+
+.developer img {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.developer .developer-name {
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 500px) {
+  .developer {
+    margin: 5px 0;
+    width: 100%;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  .developer .developer-name {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.2em;
+  }
+}
+/*# sourceMappingURL=developer.css.map */

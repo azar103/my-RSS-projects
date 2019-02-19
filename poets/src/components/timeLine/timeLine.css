@@ -1,0 +1,15 @@
+.timeline-block {
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-block h2 {
+  color: #858585;
+}
+
+.timeline {
+  margin-top: 25px;
+}

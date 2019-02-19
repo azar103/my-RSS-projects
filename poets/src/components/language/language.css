@@ -1,0 +1,28 @@
+button.active {
+  background-color: #c8c9cb;
+}
+
+button.default {
+  background-color: #e7e7e7;
+}
+
+.lang {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 1001;
+  float: right;
+}
+
+.lang > button {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
+.lang {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1005;
+}

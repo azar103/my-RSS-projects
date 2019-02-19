@@ -1,0 +1,58 @@
+@media only screen and (max-width: 630px) {
+  .author-of-the-day .author-link img {
+    width: 320px;
+    height: 400px;
+  } 
+}
+
+@media only screen and (max-width: 410px) {
+  .author-of-the-day .author-link img {
+    width: 240px;
+    height: 300px;
+  } 
+
+  .author-of-the-day h2 {
+    font-size: 1.6em;
+  }
+
+  .author-of-the-day .author-link span {
+    font-size: 1.7em;
+  }
+}
+
+.author-of-the-day {
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  user-select: none;
+}
+
+.author-of-the-day h2 {
+  color: #858585;
+}
+
+.author-of-the-day .author-link {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.author-of-the-day img {
+  width: 400px;
+  height: 500px;
+  margin: 20px 0;
+} 
+
+.author-of-the-day span {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: black;
+}
+
+.author-of-the-day span:hover {
+  color: rgb(82, 45, 45);
+}

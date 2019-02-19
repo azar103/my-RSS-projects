@@ -1,0 +1,52 @@
+@import './reset.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 16px;
+  font-family: sans-serif, serif;
+  position: relative;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: #f6f8fa;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 2%;
+  background-color: #f6f8fa;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #858585;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+
+.wrap {
+  width: 80%;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+}

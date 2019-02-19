@@ -1,0 +1,12 @@
+.gallery-container {
+  display:flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.gallery-item {
+  height:200px;
+  margin: 1% 1%;
+}

@@ -1,0 +1,39 @@
+.autor-cutaway {
+  width: 100%;
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: center;
+}
+
+.autor-cutaway h1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #858585;
+  text-align: center;
+}
+
+@media only screen and (max-width: 650px) {
+  .autor-cutaway {
+    flex-direction: column-reverse;
+    margin-bottom: 5%;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .author-avatar {
+    height: 100%;
+    margin: 5% auto;
+  }
+
+  .autor-cutaway h1 {
+    width: 100%;
+  }
+}
+
+.author-avatar {
+  height: 40vh;
+}

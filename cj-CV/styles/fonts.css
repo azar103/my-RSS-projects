@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "PoppinsBlack";
+  src: url(../fonts/PoppinsBlack/Poppins-Black.eot) format("eot"), url(../fonts/PoppinsBlack/Poppins-Black.woff) format("woff"), url(../fonts/PoppinsBlack/Poppins-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NixieOne";
+  src: url(../fonts/NixieOne/NixieOne.eot) format("eot"), url(../fonts/NixieOne/NixieOne.woff) format("woff"), url(../fonts/NixieOne/NixieOne.ttf) format("truetype");
+}
