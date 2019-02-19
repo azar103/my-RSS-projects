@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  position: relative;
+}
+
+.content {
+  margin: 2em auto;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content h1 {
+  color:rgb(210, 0, 0);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.content p {
+  margin-top: 1em;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-indent: 1em;
+  line-height: 1.3em;
+  text-align: justify;
+}

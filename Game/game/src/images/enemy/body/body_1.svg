@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 110 130" style="enable-background:new 0 0 110 130;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#121314;}
+	.st1{fill:#4D8459;}
+	.st2{fill:#D06D4B;stroke:#0E0F0F;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;}
+</style>
+<g id="тело_x5F_1">
+	<path class="st0" d="M53.9,2.1c0,0,53,2.2,48.1,25.7c-4.9,23.5,18,82.1-10.4,93.1S53.9,126,53.9,126V2.1z"/>
+	<path class="st0" d="M54.3,2.1c0,0-53,2.2-48.1,25.7s-18,82.1,10.4,93.1s37.7,5.1,37.7,5.1L54.3,2.1L54.3,2.1z"/>
+	<path class="st1" d="M53.8,7.8c0,0,48.2,2,43.7,23.3s16.4,74.7-9.4,84.7c-25.8,10-34.3,4.7-34.3,4.7V7.8z"/>
+	<path class="st1" d="M54.1,7.8c0,0-48.2,2-43.7,23.3s-16.4,74.7,9.4,84.7c25.8,10,34.3,4.7,34.3,4.7V7.8z"/>
+	<ellipse class="st2" cx="54.3" cy="33.4" rx="8.9" ry="9.4"/>
+	<ellipse class="st2" cx="54.3" cy="57.4" rx="8.9" ry="9.4"/>
+	<ellipse class="st2" cx="54.3" cy="81.5" rx="8.9" ry="9.4"/>
+	<ellipse class="st3" cx="12.3" cy="88" rx="2.4" ry="14.1"/>
+	<ellipse class="st3" cx="15.3" cy="32.1" rx="1.8" ry="9.1"/>
+	<ellipse transform="matrix(0.7659 -0.643 0.643 0.7659 -10.5768 38.6668)" class="st3" cx="47.8" cy="33.9" rx="2.9" ry="1.9"/>
+	<ellipse transform="matrix(0.7659 -0.643 0.643 0.7659 -25.6983 44.1558)" class="st3" cx="47.8" cy="57.4" rx="2.9" ry="1.9"/>
+	<ellipse transform="matrix(0.7659 -0.643 0.643 0.7659 -42.4184 50.2407)" class="st3" cx="47.8" cy="83.4" rx="2.9" ry="1.9"/>
+</g>
+</svg>

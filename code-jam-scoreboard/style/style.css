@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+	font-size: 15px;
+}
+
+form {
+	margin-bottom: 30px;
+}
+
+form label {
+	font-size: 20px;
+	padding: 30px
+}
+
+[type="checkbox"] {
+	width: 16px;
+	height: 16px;
+}
+
+table {
+	margin-bottom: 30px;
+}
+
+.name {
+	max-width: 160px;
+	word-wrap: break-word; 
+	font-weight: bolder;
+}
+
+td, th {
+  border: 1px solid black;
+	vertical-align: middle;
+	text-align: center;
+}
+
+th {
+	width: 75px;
+	padding: 10px 2px;
+	font-weight: bold;
+	background: rgb(219, 226, 247);
+}
+
+td {
+	cursor: pointer;
+	position: relative;
+	padding: 5px 2px;
+}
+
+td span {
+	max-width: 275px;
+	display: inline-block;
+  background: rgba(0, 0, 0, 0.8);
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	margin-top: -25px;
+	opacity: 0; 
+	padding: 5px 10px;
+	position: absolute;
+	visibility: hidden; 		
+	transition: all 0.4s ease-in-out; 
+	word-wrap: break-word; 
+	z-index: 10;
+}
+
+td:hover span{
+	opacity: 1;
+	visibility: visible;
+} 
+
+

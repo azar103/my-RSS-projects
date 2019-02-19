@@ -1,0 +1,316 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--main-ff);
+  font-size: var(--main-font);
+  color: var(--main-text-color);
+  background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+  background-size: 1em 1em;
+  background-color: rgb(19, 18, 18);
+  user-select: none;
+}
+
+.container {
+	max-width: var(--container-width);
+	display: flex;
+}
+
+h1 {
+  font-family: arial-black, calibri, serif;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  letter-spacing: -1px;
+  text-shadow: 0 0 12px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(218, 198, 198), 0 0 30px rgb(248, 246, 246), 0 0 40px rgb(99, 11, 11), 0 0 45px red, 0 0 55px rgb(250, 3, 3), 0 0 80px rgb(252, 2, 2);
+}
+
+h2 {
+  color: rgb(252, 249, 249);
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+
+header {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 2px -2px rgba(255, 255, 255, 0.4);
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.header-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 12vh;
+  height: 14vh;
+}
+
+.header .logo img {
+  width: 220px;
+  height: 100%;
+}
+
+.header-navigation {
+  width: 400px;
+}
+
+.header-navigation ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navigation a {
+  color: #ffffff;
+  font-size: 23px;
+  transition: color 1s;
+}
+
+.header-navigation a:hover {
+  color: black;
+}
+
+.start-game {
+  width: 100%;
+  height: 88vh;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.in-game {
+  width: 300px;
+  height: 120px;
+  margin-top: 20vh;
+  padding: 15px 30px;   
+  text-decoration: none;
+  outline: none;
+  display: inline-block;  
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px rgb(114, 113, 113) inset, 0 0 0 0 rgb(0, 0, 0);
+  font-weight: bold;
+  letter-spacing: 2px;  
+  color: #ffffff;
+  transition: 0.15s ease-in-out;
+  font-size: 37px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 10;
+}
+
+.in-game:hover {
+  box-shadow: 0 0 10px 0 rgb(5, 5, 5) inset, 0 0 10px 4px rgb(255, 255, 255);
+  color: rgb(119, 10, 10);
+}
+
+.enemy {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  left: 80px;
+  bottom: 10px;
+}
+
+.hero {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  right: 80px;
+  bottom: 10px;
+}
+
+.screenshots {
+  width: 100%;
+  height: 120vh;
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.screenshots-window {
+  width: 100%;
+  padding: 0 30px;
+  margin: 30px 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bg-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(248, 244, 244, 0.1);
+}
+
+.my-game {
+  width: 900px;
+  height: 580px;
+  border: 2px solid rgb(110, 109, 109);
+}
+
+figure {
+  display: none;
+}
+
+.my-game img {
+  width: 896px;
+  height: 576px;
+}
+
+.indicators {
+  height: 30px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.switch-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: rgb(15, 15, 15);
+  font-weight: bold;
+  background: rgb(255, 252, 252,);
+  transition: background 0.5s;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.switch-button:hover {
+  background: rgba(173, 170, 170, 0.6);
+}
+
+.my-game .visible {
+  display: block;
+}
+
+.indicators i {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin: 10px;
+  border: 1px solid rgb(138, 136, 136);
+}
+
+.indicators i {
+    margin: 0 7px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.combustion {
+    background: radial-gradient(#FF0000, #ffcc00, #ffffcc);
+}
+
+.about-me {
+  width: 100%;
+  height: 700px;
+  padding-top: 80px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-wrapper {
+  width: 100%;
+  margin-top: 35px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-me img {
+  width: 350px;
+  height: 400px;
+  box-shadow: 1px -2px 20px rgba(232,232,232, 0.7);
+  align-self: center;
+}
+
+.contacts {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contacts p, .contacts a {
+  font-size: 25px;
+}
+
+.contacts li {
+  display: block;
+  margin: 10px 0;
+}
+
+.contacts li p {
+  display: inline;
+  cursor: pointer;
+
+}
+
+.contacts li p:hover {
+  color: white;
+}
+
+.contacts li a:hover {
+  color: white;
+}
+
+.contacts li i {
+  margin: 0 5px;
+  font-size: 2rem;
+}
+
+.contacts li .fa-envelope {
+  color: rgba(255, 102, 0, 0.8);
+}
+
+.contacts li .fa-mobile {
+  margin: 0 10px 0 10px;
+  color: rgb(167, 167, 204);
+}
+
+.contacts li .fa-skype {
+  color: rgb(51, 153, 255);
+}
+
+.contacts li .fa-vk {
+  margin: 0 3px 0 2px;
+  color: rgb(114, 159, 248);
+}
+
+.contacts li .fa-github {
+  color: rgb(252, 246, 246);
+}

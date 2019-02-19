@@ -1,0 +1,20 @@
+.health {
+  width: 400px;
+  height: 25px;
+  background-color: rgb(214, 25, 25);
+  border: 3px solid rgb(129, 125, 125);
+  box-shadow: 0 0 10px 5px rgb(182, 179, 179);  
+}
+
+.health div{
+height: 100%;
+background-color: rgb(23, 112, 1);
+}
+
+.user-health {
+  transform: skewX(-50deg);
+}
+
+.enemy-health {
+  transform:rotate(180deg) skewX(50deg);
+}

@@ -1,0 +1,282 @@
+.part {
+  width: 90px;
+  height: 90px;
+  display: block;
+  position: absolute;
+}
+
+.head-enemy-stand {
+  left: 28%;
+  top: 1%;
+  z-index: 5;
+  animation: enemy-stand 1s linear infinite alternate;
+}
+
+.body-enemy-stand {
+  top: 31%;
+  left: 28%;
+  z-index: 4;
+  animation: enemy-stand 1s linear infinite alternate;
+}
+
+.hand-left-enemy-stand {
+  top: 31%;
+  left: 9%;
+  z-index: 3;
+  animation: enemy-stand 1s linear infinite alternate;
+}
+
+.hand-right-enemy-stand {
+  top: 31%;
+  right: 9%;
+  z-index: 3;
+  animation: enemy-stand 1s linear infinite alternate;
+}
+
+.leg-left-enemy-stand {
+  top: 63%;
+  left: 16%;
+  z-index: 3;
+}
+
+.leg-right-enemy-stand {
+  top: 63%;
+  right: 16%;;
+  z-index: 3;
+}
+
+@keyframes enemy-stand {
+  from {
+      transform: translateY(0px);
+  }
+  to {
+      transform: translateY(4px);
+  }
+}
+
+
+.head-enemy-attack {
+  left: 28%;
+  top: 1%;
+  z-index: 5;
+  animation: enemy-jump 1s linear forwards, enemy-jump-back 1s linear forwards;
+  animation-delay: 0s, 2s;
+}
+
+.body-enemy-attack {
+  top: 31%;
+  left: 28%;
+  z-index: 4;
+  animation: enemy-jump 1s linear forwards, enemy-jump-back 1s linear forwards;
+  animation-delay: 0s, 2s;
+}
+
+.hand-left-enemy-attack {
+  top: 31%;
+  left: 9%;
+  z-index: 3;
+  animation: enemy-jump 1s linear forwards,
+             enemy-attack-left-hand 1s linear forwards,
+             enemy-jump-back 1s linear forwards;
+  animation-delay: 0s, 1s, 2s;
+}
+
+.hand-right-enemy-attack {
+  top: 31%;
+  right: 9%;
+  z-index: 3;
+  transform-origin: 17px 26px;
+  animation: enemy-jump 1s linear forwards,
+             enemy-attack-right-hand 1s linear forwards,
+             enemy-jump-back 1s linear forwards;
+  animation-delay: 0s, 1s, 2s;
+}
+
+.leg-left-enemy-attack {
+  top: 63%;
+  left: 16%;
+  z-index: 3;
+  animation: enemy-jump 1s linear forwards, enemy-jump-back 1s linear forwards;
+  animation-delay: 0s, 2s;
+}
+
+.leg-right-enemy-attack {
+  top: 63%;
+  right: 16%;
+  z-index: 3;
+  animation: enemy-jump 1s linear forwards, enemy-jump-back 1s linear forwards;
+  animation-delay: 0s, 2s;
+}
+
+@keyframes enemy-jump {
+  0% {
+      transform: translate(0px, 0px);
+  }
+  50%{
+      transform: translate(-250px, -150px);
+  }
+  100% {
+      transform: translate(-600px, 0px);
+  }
+}
+
+@keyframes enemy-jump-back {
+  0% {
+      transform: translate(-600px, 0px);
+  }
+  50%{
+      transform: translate(-250px, -150px);
+  }
+  100% {
+      transform: translate(0px, 0px);
+  }
+}
+
+@keyframes enemy-attack-left-hand {
+  0% {
+      transform: translate(-600px, 0px) rotate(0deg);
+  }
+  50% {
+      transform: translate(-600px, 0px) rotate(90deg);
+  }
+  100% {
+      transform: translate(-600px, 0px) rotate(0deg);
+  }
+}
+
+@keyframes enemy-attack-right-hand {
+  0% {
+      transform: translate(-600px, 0px) rotate(0deg);
+  }
+  50% {
+      transform: translate(-600px, 0px) rotate(250deg);
+  }
+  100% {
+      transform: translate(-600px, 0px) rotate(150deg);
+  }
+}
+
+
+.head-enemy-hurt {
+  left: 28%;
+  top: 1%;
+  z-index: 5;
+  animation: enemy-hurt 0.2s linear;
+}
+
+.body-enemy-hurt {
+  top: 31%;
+  left: 28%;
+  z-index: 4;
+  animation: enemy-hurt 0.3s linear;
+}
+
+.hand-left-enemy-hurt {
+  top: 31%;
+  left: 9%;
+  z-index: 3;
+  animation: enemy-hurt 0.5s linear;
+}
+
+.hand-right-enemy-hurt {
+  top: 31%;
+  right: 9%;
+  z-index: 3;
+  transform-origin: 17px 26px;
+  animation: enemy-hurt 0.4s linear;
+}
+
+.leg-left-enemy-hurt {
+  top: 63%;
+  left: 16%;
+  z-index: 3;
+}
+
+.leg-right-enemy-hurt {
+  top: 63%;
+  right: 16%;
+  z-index: 3;
+}
+
+@keyframes enemy-hurt{
+  0% {
+      transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(13deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+}
+
+
+.head-enemy-dying  {
+  left: 28%;
+  top: 1%;
+  z-index: 5;
+  animation: enemy-dying-head 0.6s linear forwards;
+}
+
+.body-enemy-dying  {
+  top: 31%;
+  left: 28%;
+  z-index: 4;
+  animation: enemy-dying-body-hand 0.4s linear forwards;
+}
+
+.hand-left-enemy-dying  {
+  top: 31%;
+  left: 9%;
+  z-index: 3;
+  animation: enemy-dying-body-hand 0.4s linear forwards;
+}
+
+.hand-right-enemy-dying  {
+  top: 31%;
+  right: 9%;
+  z-index: 3;
+  transform-origin: 17px 26px;
+  animation: enemy-dying-body-hand 0.4s linear forwards;
+}
+
+.leg-left-enemy-dying  {
+  top: 63%;
+  left: 16%;
+  z-index: 3;
+  animation: enemy-dying-leg 0.2s linear forwards;
+}
+
+.leg-right-enemy-dying  {
+  top: 63%;
+  right: 16%;
+  z-index: 3;
+  animation: enemy-dying-leg 0.2s linear forwards;
+}
+
+@keyframes enemy-dying-leg {
+  0% {
+      transform: translate(0px, 0px) rotate(0deg);
+  }
+  100% {
+      transform: translate(0px, 20px) rotate(270deg);
+  }
+}
+
+@keyframes enemy-dying-body-hand {
+  0% {
+      transform: translate(0px, 0px) rotate(0deg);
+  }
+  100% {
+      transform: translate(0px, 100px) rotate(270deg);
+  }
+}
+
+@keyframes enemy-dying-head {
+  0% {
+      transform: translate(0px, 0px) rotate(0deg);
+  }
+  100% {
+      transform: translate(0px, 150px) rotate(450deg);
+  }
+}

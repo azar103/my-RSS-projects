@@ -1,0 +1,11 @@
+.sort-numbers {
+  width: 80px;
+  height: 70px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: arial-black, calibri, serif;
+  background-color: rgb(255, 255, 255);
+}

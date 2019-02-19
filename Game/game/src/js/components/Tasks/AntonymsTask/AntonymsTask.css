@@ -1,0 +1,10 @@
+.antonyms-task p {
+  font-size: 45px;
+  font-family: arial-black, calibri, serif;
+}
+
+.antonyms-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,50 @@
+.end-page {
+  width: 100%;
+  height: 100%;
+  padding: 30px 50px 50px 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: url(../../../images/EndPage.jpg) no-repeat;
+  background-size: cover;
+}
+
+.end-page h2 {
+  display: inline-block;
+  font-family: arial-black, calibri, serif;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 4px 4px #1d1a18, 7px 7px rgba(134, 129, 123, 0.2);
+}
+
+.end-page .score {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.end-page .score ul {
+  height: 400px;
+  padding: 5px 0;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.end-page .score ul li {
+  margin: 15px 150px;
+  border-bottom: 1px solid rgb(78, 74, 74);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(190, 3, 3);
+  font-size: 25px;
+  text-shadow: 1px 1px #ffffff, 1px -1px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.end-page .score ul li span {
+  font-size: 28px;
+}

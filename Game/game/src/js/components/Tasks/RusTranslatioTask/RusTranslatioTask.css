@@ -1,0 +1,7 @@
+.rus-translatio-task p {
+  font-size: 50px;
+  font-weight: 200;
+  font-family: arial-black, calibri, serif;
+  color: rgb(59, 58, 58);
+  text-shadow: rgb(253, 249, 249) 1px 1px 0, rgb(253, 249, 249) -1px -1px 0, rgb(253, 249, 249) -1px 1px 0, rgb(253, 249, 249) 1px -1px 0;
+}

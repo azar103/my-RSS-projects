@@ -1,0 +1,127 @@
+.hero-stand {
+  width: 104px;
+  height: 207px;
+  animation: hero-stand 1.2s steps(2) infinite;
+}
+
+@keyframes hero-stand {
+  0% {
+      background-position: -7px -56px;
+  }
+  100% {
+      background-position: -392px -56px;
+  }
+}
+
+
+.hero-hurt {
+  width: 104px;
+  height: 207px;
+  background-position: -7px -56px;
+  animation: hero-hurt 0.2s linear;
+}
+
+@keyframes hero-hurt {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+}
+
+
+.hero-sword-attack {
+  width: 210px;
+  height: 200px;
+  animation: hero-run 1.3s steps(6),
+            hero-sword-attack 1.3s 1.3s steps(5);
+}
+
+@keyframes hero-run {
+    from {
+        background-position: 0px -370px;
+        transform: translateX(0px);
+    }
+    to {
+        background-position: -1320px -370px;
+        transform: translateX(500px);
+    }
+}
+
+@keyframes hero-sword-attack {
+  from {
+      background-position: 0px -2045px;
+      transform: translateX(500px);
+  }
+  to {
+      background-position: -1100px -2045px;
+      transform: translateX(500px);
+  }
+}
+
+
+.hero-throw-attack {
+  width: 220px;
+  height: 200px;
+  animation: throw-attack-prepare .7s steps(4) forwards;
+}
+
+.hero-throw-attack:after {
+  z-index: 3;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 0px;
+  height: 0px;
+  display: block;
+  content: '';
+  background-image: url('../../../images/hero.png');
+  animation: throw-attack .7s steps(5) .7s;
+}
+
+@keyframes throw-attack-prepare {
+  from {
+      transform: translateY(0px);
+      background-position: 0px -6415px;
+  }
+  to {
+      transform: translateY(-400px);
+      background-position: -880px -6415px;
+  }
+}
+@keyframes throw-attack {
+  from {
+      width: 220px;
+      height: 190px;
+      background-position: -440px -6615px;
+      transform: translate(100px, 100px);
+  }
+  to {
+      width: 220px;
+      height: 190px;
+      transform: translate(650px, 400px);
+      background-position: -1540px -6615px;
+  }
+}
+
+
+.hero-dying {
+  width: 185px;
+  height: 200px;
+  animation: hero-dying 0.5s steps(2) forwards;
+}
+
+@keyframes hero-dying {
+  from {
+      transform: translateX(-100px);
+      background-position: 35px -1460px;
+  }
+  to {
+      transform: translateX(-200px);
+      background-position: -330px -1460px;
+  }
+}

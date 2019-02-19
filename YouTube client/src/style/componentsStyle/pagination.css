@@ -1,0 +1,69 @@
+video-pagination {
+  width: 100%;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+}
+
+.pagination li {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+  border: 2px solid var(--pagination-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--pagination-color);
+  cursor: pointer;
+  user-select: none;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+.pagination li:first-child {
+  margin-left: 0
+}
+
+.pagination li:hover {
+  background-color: var(--pagination-color-h);
+}
+
+video-pagination i {
+  color: rgb(60, 87, 67);
+  cursor: pointer;
+}
+
+video-pagination i:hover {
+  color: rgb(2, 116, 36);
+}
+
+.pagination .currentIndicator {
+  background-color: var(--pagination-color-h);
+  animation-duration: 0.7s;
+  animation-name: blink;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  video-pagination {
+    margin-top: 20px;
+  }
+}

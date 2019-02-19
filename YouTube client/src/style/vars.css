@@ -1,0 +1,14 @@
+:root {
+  --main-font: 16px;
+  --font: Verdana, Geneva, Tahoma, sans-serif;
+  --bg-color: rgba(151, 164, 173, 0.616);
+  --search-color: rgb(76, 172, 145);
+  --search-color-h: rgb(149, 201, 186);
+  --search-icon: 	rgb(248, 244, 233);
+  --search-icon-h: rgb(204, 165, 59);
+  --title-color: rgba(0, 0, 0, 0.5);
+  --title-color-h: rgb(22, 82, 22);
+  --bg-card: rgb(213, 223, 194);
+  --pagination-color: rgb(255, 255, 255);
+  --pagination-color-h: rgb(192, 38, 38);
+}

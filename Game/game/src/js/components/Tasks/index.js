@@ -1,0 +1,10 @@
+export { MathTask } from './MathTask';
+export { CompareTask } from './CompareTask';
+export { RusTranslatioTask } from './RusTranslatioTask';
+export { EngTranslatioTask } from './EngTranslatioTask';
+export { ComposeWordTask } from './ComposeWordTask';
+export { AntonymsTask } from './AntonymsTask';
+export { SynonymsTask } from './SynonymsTask';
+export { SortingTask } from './SortingTask';
+export { ComposePhraseTask } from './ComposePhraseTask';
+export { ColorTask } from './ColorTask';

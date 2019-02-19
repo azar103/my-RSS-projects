@@ -1,0 +1,19 @@
+.task-window {
+  width: 615px;
+  height: 480px;
+  padding: 60px 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../../images/scroll.png');
+  background-size: cover;
+}
+
+.result {
+  display: inline-block;
+  margin-bottom: 50px;
+  font-family: arial-black, calibri, serif;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px rgba(150, 14, 14, 0.4);
+}

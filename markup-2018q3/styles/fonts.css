@@ -1,0 +1,47 @@
+@font-face {
+	font-family: "Loto";
+	src: url("../fonts/Loto/Lato.woff2") format("woff2"),
+	url("../fonts/Loto/Lato.woff") format("woff");
+}
+
+@font-face {
+	font-family: "LatoSemibold";
+	src: url("../fonts/LatoSemibold/LatoSemibold.woff2") format("woff2"),
+	url("../fonts/LatoSemibold/LatoSemibold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "LatoThin";
+	src: url("../fonts/LotoThin/LatoThin.woff2") format("woff2"),
+	url("../fonts/LotoThin/LatoThin.woff") format("woff");
+}
+
+@font-face {
+	font-family: "LatoLight";
+	src: url("../fonts/LotoLight/LatoLight.woff2") format("woff2"),
+	url("../fonts/LotoLight/LatoLight.woff") format("woff");
+}
+
+@font-face {
+	font-family: "LotoHeavy";
+	src: url("../fonts/LotoHeavy/LatoHeavy.woff2") format("woff2"),
+	url("../fonts/LotoHeavy/LatoHeavy.woff") format("woff");
+}
+
+@font-face {
+	font-family: "LotoMedium";
+	src: url("../fonts/LotoMedium/LatoMedium.woff2") format("woff2"),
+	url("../fonts/LotoMedium/LatoMedium.woff") format("woff");
+}
+
+@font-face {
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadPro/MyriadPro.woff2") format("woff2"),
+	url("../fonts/MyriadPro/MyriadPro.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat/Montserrat.woff2") format("woff2"),
+	url("../fonts/Montserrat/Montserrat.woff") format("woff");
+}

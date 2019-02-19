@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 130 120" style="enable-background:new 0 0 130 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#121314;}
+	.st1{fill:#D06D4B;}
+	.st2{fill:none;stroke:#0E0F0F;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:none;}
+	.st4{fill:none;stroke:#0E0F0F;stroke-width:2;stroke-miterlimit:10;}
+	.st5{fill:#4D8459;}
+	.st6{fill:#FFFFFF;}
+</style>
+<g id="тело_x5F_2">
+	<path class="st0" d="M75.3,0.1L109.1,47v47.6c0,0,21.6,17.6,19.1,21.4s-63.6,3.9-63.6,3.9V0.1H75.3z"/>
+	<path class="st0" d="M53.8,0.1L20,46.9v47.6c0,0-21.6,17.6-19.1,21.4s63.6,3.9,63.6,3.9V0.1H53.8z"/>
+	<path class="st1" d="M74.8,2.8L107,47.5v45.4c0,0,20.6,16.8,18.3,20.4S64.6,117,64.6,117V2.8H74.8z"/>
+	<path class="st1" d="M54.3,2.8L22.1,47.5v45.4c0,0-20.6,16.8-18.3,20.4c2.4,3.6,60.7,3.7,60.7,3.7V2.8H54.3z"/>
+	<line class="st2" x1="22.1" y1="67.8" x2="107" y2="67.8"/>
+	<line class="st2" x1="22.1" y1="47.5" x2="107" y2="47.5"/>
+	<line class="st3" x1="31.8" y1="31.9" x2="97.1" y2="31.9"/>
+	<line class="st2" x1="44.1" y1="15.5" x2="85.4" y2="15.7"/>
+	<line class="st2" x1="22.1" y1="93" x2="107" y2="93"/>
+	<line class="st4" x1="54.3" y1="2.8" x2="54.3" y2="117.1"/>
+	<line class="st4" x1="74.8" y1="2.8" x2="74.8" y2="117.1"/>
+	<rect x="55.2" y="17" class="st5" width="18.6" height="29.2"/>
+	<rect x="55.3" y="69.2" class="st5" width="18.6" height="22.3"/>
+	<rect x="75.7" y="48.8" class="st6" width="31.3" height="17.6"/>
+	<rect x="22.1" y="48.8" class="st6" width="31.1" height="17.6"/>
+	<rect x="55.3" y="94" class="st6" width="18.6" height="23.1"/>
+</g>
+</svg>
